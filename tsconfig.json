@@ -6,6 +6,7 @@
 		"target": "ES6",
 		"module": "CommonJS",
 		"esModuleInterop": true,
-		"noEmit": true
+		"noEmit": true,
+		"lib": ["DOM", "ES7", "ES6"]
 	}
 }
