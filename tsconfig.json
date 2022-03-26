@@ -2,11 +2,12 @@
 	"include": ["src"],
 	"exclude": ["node_modules"],
 	"compilerOptions": {
+		"outDir": "build",
 		"allowJs": true,
-		"target": "ES6",
-		"module": "CommonJS",
+		"target": "ES5",
+		"module": "es6",
 		"esModuleInterop": true,
-		"noEmit": true,
+		"moduleResolution": "node",
 		"lib": ["DOM", "ES7", "ES6"]
 	}
 }
