@@ -1,3 +1,7 @@
-export function fun() {
-	console.log("function");
+export function sum(a, b) {
+	return a + b;
+}
+
+export function anotherOne(){
+	console.log("output some text")
 }
