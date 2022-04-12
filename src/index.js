@@ -1,5 +1,9 @@
-import * as d3 from "d3"
+// Functions import.
 import { sum, anotherOne } from "./fun"
+// Library import.
+import * as d3 from "d3"
+// CSS import.
+import "./styles/box.css"
 
 document.addEventListener("DOMContentLoaded", function () {
 	console.log(sum(5, 8))

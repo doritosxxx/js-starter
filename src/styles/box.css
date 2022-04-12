@@ -1,0 +1,11 @@
+:root {
+	--box-side: 100px;
+}
+
+.box {
+	width: var(--box-side);
+	height: var(--box-side);
+	box-sizing: border-box;
+	background-color: rgb(98, 249, 124);
+	border: 2px solid black;
+}
